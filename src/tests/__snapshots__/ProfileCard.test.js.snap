@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render ProfileCard component correctly 1`] = `
+<Card
+  body={false}
+  className="col-xs-5 col-sm-6 m-5 text-center mb-auto"
+>
+  <CardImg
+    className="rounded-circle ml-auto mr-auto mt-2"
+    src="https://github.com/images/error/octocat_happy.gif"
+    style={
+      Object {
+        "width": "13rem",
+      }
+    }
+    variant="top"
+  />
+  <CardBody>
+    <CardTitle>
+      monalisa octocat
+    </CardTitle>
+    <CardText>
+      <em>
+        There once was...
+      </em>
+    </CardText>
+    <hr />
+    <CardText>
+      Public repos: 
+      2
+    </CardText>
+    <CardText>
+      Followers: 
+      20
+       | Following: 
+      0
+    </CardText>
+    <CardText>
+      Created at: 
+      2008-01-14T04:33:35Z
+    </CardText>
+    <Button
+      active={false}
+      disabled={false}
+      href="https://github.com/octocat"
+      type="button"
+      variant="primary"
+    >
+      Go to profile
+    </Button>
+  </CardBody>
+</Card>
+`;

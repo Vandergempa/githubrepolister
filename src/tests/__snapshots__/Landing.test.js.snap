@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the Landing component correctly 1`] = `
+<section
+  className="d-flex flex-column bgimage position-fixed"
+>
+  <div
+    className="d-flex flex-column mt-auto mb-5"
+  >
+    <Bootstrap(Modal)
+      className="d-flex align-items-center justify-content-center"
+      onHide={[Function]}
+      show={false}
+    >
+      <ModalHeader
+        closeButton={true}
+        closeLabel="Close"
+      >
+        <ModalTitle>
+          Ooopps
+        </ModalTitle>
+      </ModalHeader>
+      <ModalBody>
+        You must enter a valid username!
+      </ModalBody>
+    </Bootstrap(Modal)>
+    <h1
+      className="text-center text-white display-3 custfontfamily"
+    >
+      Github repo lister
+    </h1>
+    <InputGroup
+      className="justify-content-center mt-5"
+      size="lg"
+    >
+      <InputGroupPrepend>
+        <InputGroupText
+          id="btnGroupAddon"
+        >
+          @
+        </InputGroupText>
+      </InputGroupPrepend>
+      <Col
+        className="pl-0"
+        xs="auto"
+      >
+        <FormControl
+          aria-describedby="btnGroupAddon"
+          aria-label="Type Github username"
+          onChange={[Function]}
+          placeholder="Type Github username"
+          size="lg"
+          type="text"
+        />
+      </Col>
+      <Button
+        active={false}
+        className="justify-content-center shadow-none ml-2 mr-3"
+        disabled={false}
+        onClick={[Function]}
+        size="lg"
+        type="button"
+        variant="light"
+      >
+        Find & List
+      </Button>
+    </InputGroup>
+  </div>
+</section>
+`;

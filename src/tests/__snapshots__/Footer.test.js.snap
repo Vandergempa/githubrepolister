@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Footer component correctly 1`] = `
+<footer
+  className="pl-5 pr-5 d-flex"
+  style={
+    Object {
+      "height": "150px",
+    }
+  }
+>
+  <p
+    className="m-auto pt-3 w-100 text-center border-top"
+  >
+    © 2019 Made By Tamas Bogdan
+  </p>
+</footer>
+`;

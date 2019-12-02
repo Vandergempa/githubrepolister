@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the ReposList component correctly 1`] = `
+<Fragment>
+  <header>
+    <Navbar
+      bg="light"
+      collapseOnSelect={false}
+      expand="sm"
+      variant="light"
+    >
+      <img
+        alt="Kiwi standing on oval"
+        className="github-icon mr-2"
+        src="https://unicons.iconscout.com/release/v2.0.1/svg/line/github.svg"
+      />
+      <NavbarBrand
+        href="/"
+      >
+        GitHub Repo Lister
+      </NavbarBrand>
+      <NavbarToggle
+        aria-controls="basic-navbar-nav"
+        label="Toggle navigation"
+      />
+      <NavbarCollapse
+        id="basic-navbar-nav"
+      >
+        <Form
+          className="ml-auto"
+          inline={true}
+        >
+          <FormControl
+            className="mr-sm-2"
+            onChange={[Function]}
+            placeholder="Search repositories..."
+            type="text"
+          />
+        </Form>
+      </NavbarCollapse>
+    </Navbar>
+    <Breadcrumb
+      bg="light"
+      label="breadcrumb"
+      listProps={Object {}}
+    >
+      <BreadcrumbItem
+        active={true}
+      >
+        Main
+      </BreadcrumbItem>
+      <BreadcrumbItem
+        active={true}
+      />
+    </Breadcrumb>
+  </header>
+  <section
+    className="h-100 d-flex flex-column justify-content-center align-items-center mt-5 mb-5"
+  >
+    <h1
+      className="text-center display-3 custfontfamily"
+    >
+      's repositories
+    </h1>
+    <div
+      className="h-100 d-flex flex-row justify-content-center align-items-center flex-wrap"
+    >
+      <ProfileCard
+        userInfo={Object {}}
+      />
+      <ListGroup
+        className="col-xs-auto mt-5"
+        horizontal={null}
+        variant={null}
+      >
+        <ListGroupItem
+          action={true}
+          active={false}
+          disabled={false}
+          key="0"
+          onClick={[Function]}
+          variant={null}
+        >
+          app#1
+        </ListGroupItem>
+        <ListGroupItem
+          action={true}
+          active={false}
+          disabled={false}
+          key="1"
+          onClick={[Function]}
+          variant={null}
+        >
+          app#2
+        </ListGroupItem>
+        <ListGroupItem
+          action={true}
+          active={false}
+          disabled={false}
+          key="2"
+          onClick={[Function]}
+          variant={null}
+        >
+          app#3
+        </ListGroupItem>
+      </ListGroup>
+    </div>
+  </section>
+</Fragment>
+`;

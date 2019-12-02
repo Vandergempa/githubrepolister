@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render RepoInfo component correctly 1`] = `
+<Fragment>
+  <header>
+    <Navbar
+      bg="light"
+      collapseOnSelect={false}
+      expand="sm"
+      variant="light"
+    >
+      <img
+        alt="Kiwi standing on oval"
+        className="github-icon mr-2"
+        src="https://unicons.iconscout.com/release/v2.0.1/svg/line/github.svg"
+      />
+      <NavbarBrand
+        href="/"
+      >
+        GitHub Repo Lister
+      </NavbarBrand>
+      <NavbarToggle
+        aria-controls="basic-navbar-nav"
+        label="Toggle navigation"
+      />
+      <NavbarCollapse
+        className="justify-content-end"
+      >
+        <NavbarText
+          className="cursor-pointer"
+          onClick={[Function]}
+        >
+          Back
+        </NavbarText>
+      </NavbarCollapse>
+    </Navbar>
+    <Breadcrumb
+      bg="light"
+      label="breadcrumb"
+      listProps={Object {}}
+    >
+      <BreadcrumbItem
+        active={true}
+      >
+        Main
+      </BreadcrumbItem>
+      <BreadcrumbItem
+        active={true}
+      >
+        Gempa
+      </BreadcrumbItem>
+      <BreadcrumbItem
+        active={true}
+      >
+        Tom
+      </BreadcrumbItem>
+    </Breadcrumb>
+  </header>
+  <section
+    className="w-100"
+  >
+    <h1
+      className="text-center mb-5 mt-5 display-3 custfontfamily"
+    >
+      Tom
+    </h1>
+    <ForwardRef
+      className="mb-2 cursor-pointer col-6 mr-auto ml-auto"
+      defaultActiveKey="0"
+    >
+      <AccordionCard
+        body="Something"
+        eventKey="0"
+        title="Description"
+      />
+      <AccordionCard
+        body={
+          <a
+            href="www.github.com"
+          >
+            www.github.com
+          </a>
+        }
+        eventKey="1"
+        title="Repo URL"
+      />
+      <AccordionCard
+        body={
+          <a
+            href="www.something.com"
+          >
+            www.something.com
+          </a>
+        }
+        eventKey="2"
+        title="Homepage"
+      />
+      <AccordionCard
+        body="1992"
+        eventKey="3"
+        title="Created At"
+      />
+      <AccordionCard
+        body="1995"
+        eventKey="4"
+        title="Updated At"
+      />
+      <AccordionCard
+        body="something"
+        eventKey="5"
+        title="Clone URL - SSH"
+      />
+      <AccordionCard
+        body="HTML"
+        eventKey="6"
+        title="Main language"
+      />
+      <AccordionCard
+        body={0}
+        eventKey="7"
+        title="Fork count"
+      />
+      <AccordionCard
+        body={0}
+        eventKey="8"
+        title="Watchers count"
+      />
+    </ForwardRef>
+  </section>
+</Fragment>
+`;

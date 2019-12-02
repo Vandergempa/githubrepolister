@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render AccordionCard component correctly 1`] = `
+<Card
+  body={false}
+>
+  <ForwardRef
+    as={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "displayName": "CardHeader",
+        "render": [Function],
+      }
+    }
+  >
+    <strong>
+      Ez
+    </strong>
+  </ForwardRef>
+  <AccordionCollapse>
+    <CardBody>
+      Valami
+    </CardBody>
+  </AccordionCollapse>
+</Card>
+`;
