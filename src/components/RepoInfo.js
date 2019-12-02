@@ -26,7 +26,7 @@ const RepoInfo = (props) => {
           <Breadcrumb.Item active>{repoDetails.name}</Breadcrumb.Item>
         </Breadcrumb>
       </header>
-      <section className="w-100">
+      <section className="w-100" style={{ height: "930px" }}>
         <h1 className="text-center mb-5 mt-5 display-3 custfontfamily">{repoDetails.name}</h1>
         <Accordion className="mb-2 cursor-pointer col-6 mr-auto ml-auto" defaultActiveKey="0">
           <AccordionCard eventKey="0" title="Description" body={repoDetails.description} />
